@@ -18,20 +18,24 @@
 
 variable "project_id" {
   type = string
+  default = "nprd-ds-scoe-gcp-project2044fc"
 }
 
 variable "region" {
   type = string
+  default = "us-central"
 }
 
 variable "artifact_registry_name" {
   type = string
-  default = "bq-remote-functions"
+  #default = "bq-remote-functions"
+  default = "repo-for-bigquery"
 }
 
 variable "bq_dataset" {
   type = string
-  default = "fns"
+  #default = "fns"
+  default = "DS01"
 }
 
 variable "dlp_deid_template_json_file" {
