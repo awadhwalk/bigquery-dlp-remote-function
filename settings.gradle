@@ -14,4 +14,4 @@
  * limitations under the License.
  */
 
-rootProject.name = 'bigquery-dlp-remote-function'
+rootProject.name = 'nprd-ds-scoe-gcp-project'
